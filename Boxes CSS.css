@@ -1,7 +1,5 @@
 /*Imports font from https://fonts.google.com/*/
-@import
-url('https://fonts.googleapis.com/css?family=Lato:100,400,900
-');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
 /*1. Change the background color to: #f3f3f3*/
 .my-body{
 background-color: #f3f3f3;
