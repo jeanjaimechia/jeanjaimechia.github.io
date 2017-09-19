@@ -1,11 +1,10 @@
-@import
-url('https://fonts.googleapis.com/css?family=Lato:100,400,900
-');
+import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
 .my-body{
 background-image: url('stripe_background.png');
 }
 .my-container{
-border: 1px solid #aaa;
+border: 1px solid #aaa;@
 background-color: white;
 max-width: 400px;
 margin: 110px auto 10px auto;
