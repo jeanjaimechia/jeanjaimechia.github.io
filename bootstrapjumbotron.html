@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
+    <link rel = "stylesheet" href=bootstrapjumbotron.css>
     <style type="text/css">
         * {
             border: 1px dotted blue;
@@ -23,24 +24,15 @@
         <div class="row">
             <div class="col-12">
 
-                <div class="jumbotron">
-
-                    <h1>My Big Title</h1>
-                    <p>Some description text
-
-                    </p>
-
-                    <p>
-                        <a class="btn btn-primary btn-lg" href="#">
-                                Submit
-                            </a>
-                        <a class="btn btn-outline-primary btn-lg" href="#">
-                                    Reset
-                            </a>
-
-                    </p>
-
-                </div>
+                    <div class="jumbotron"> 
+                            <h1 class="display-3">Hello, world!</h1>
+                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                            <hr class="my-4">
+                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            <p class="lead">
+                              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                            </p>
+                          </div>
 
             </div>
 
@@ -116,13 +108,29 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-4">
-                Lorem Ipsum blah blah
+                    <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HY71088saG4" frameborder="0" allowfullscreen></iframe> 
+                    </div>
+            </div>
+            <div class="col-4 justify-content-center d-flex">
+                    <img class="img-fluid mt-2 mb-2" src="http://via.placeholder.com/400x250?text=Picture">
             </div>
             <div class="col-4">
-                Lorem Ipsum blah blah
-            </div>
-            <div class="col-4">
-                Lorem Ipsum blah blah
+                    <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name-id">Name</label>
+                                <input type="text" name="NAME" id="name-id" class="form-control">
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="email-id">Email</label>
+                                <input type="email" name="EMAIL" id="email-id" class="form-control">
+                            </div>
+                        
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary">
+                            </div>
+                        </form>
             </div>
         </div>
     </div>

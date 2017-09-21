@@ -1,0 +1,7 @@
+.my-photo {
+    background-image: url('https://coderinyou.github.io/images/background.jpg'); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
