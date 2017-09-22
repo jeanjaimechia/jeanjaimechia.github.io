@@ -90,8 +90,68 @@ function processInput() {
     var num1 = parseInt(input1)
     var num2 = parseInt(input2)
 
+    if (num1 <0 ) {
+        document.getElementById("result_header").innerHTML = "Cannot Do Math"
+    } else{
+
+    }
+
     var result = add(num1, num2)
 
     // UPDATE THE HTML HEADER
     document.getElementById("result_header").innerHTML = result
 }
+
+for (var index = 0; index < 10; index++) {
+    console.log (index)
+    
+}
+
+for (var index = 90; index > 69; index--) {
+    console.log (index)
+    
+}
+
+// Objects
+var student = {
+    name: "Ken",
+    age: 20,
+    marks: [80, 89, 67, 90, 100],
+    subjects: ["Math", "CS", "EC", "Math2", "Math3"],
+    avg: 0,
+    young: false,
+    welcome_function: function () {
+        console.log("WELCOME BLA BLA BLA..")
+    },
+    bmi: {
+        height: 200,
+        weight: 70
+    }
+}
+
+// Access the value of name "property" from student object
+console.log(student.name)
+
+
+var mymarks_list  = student.marks
+var no_of_items = mymarks_list.length
+var index = 0
+var total = 0
+while (index < no_of_items) {
+    total = total + mymarks_list[index]
+    index++
+}
+
+var average = total / no_of_items
+student.avg = average
+
+
+//99 bottles of beer on the wall
+var index = 99
+if (index>0) {
+    
+}
+for (var index = 99; index > 0; index--) {
+    console.log (index + " bottles of beer on the wall")
+}
+else {"no more bottles of beer on the wall"}
